@@ -1,0 +1,3 @@
+app.controller("controller", ['$scope', 'service', function ($scope, service) {
+    $scope.serviceRest = service;
+}]);
